@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #26344b; background: #f4f7fb; line-height: 1.65; }
+.page-heading { padding: 55px 7% 35px; background: white; border-bottom: 1px solid #e4e9f1; }
+.eyebrow { color: #5578b5; font-size: .78rem; font-weight: bold; letter-spacing: 1.4px; }
+h1 { margin: 8px 0; font-size: clamp(2.3rem, 6vw, 3.8rem); }
+.page-heading p:last-child, .demo p, .comparison p { color: #68748a; }
+main { max-width: 1000px; margin: auto; padding: 20px 24px 50px; }
+.demo, .comparison { margin: 22px 0; padding: 24px; background: white; border: 1px solid #e2e8f0; border-radius: 13px; }
+.demo h2 { margin-bottom: 0; }
+.flex-demo { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.flex-demo div { flex: 1 1 150px; padding: 18px; text-align: center; color: #244b8f; background: #e8eef9; border-radius: 8px; }
+.grid-demo { display: grid; grid-template-columns: 1fr 2fr; gap: 12px; margin-top: 20px; }
+.grid-demo div { padding: 20px; text-align: center; color: white; background: #5578b5; border-radius: 8px; }
+.grid-demo div:first-child, .grid-demo div:last-child { grid-column: span 2; background: #244b8f; }
+footer { padding: 20px; text-align: center; color: #77839a; background: white; }
+@media (max-width: 560px) { .grid-demo { grid-template-columns: 1fr; } .grid-demo div:first-child, .grid-demo div:last-child { grid-column: span 1; } }

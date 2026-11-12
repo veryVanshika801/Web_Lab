@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Arial, sans-serif; color: #26344b; background: #f4f7fb; line-height: 1.65; }
+.navbar { position: sticky; top: 0; z-index: 10; display: flex; justify-content: space-between; align-items: center; padding: 17px 7%; background: white; border-bottom: 1px solid #e2e8f0; }
+.brand { color: #244b8f; font-weight: bold; font-size: 1.2rem; text-decoration: none; }
+nav { display: flex; gap: 20px; }
+nav a { color: #536078; text-decoration: none; }
+nav a:hover { color: #244b8f; }
+main { max-width: 1050px; margin: auto; padding: 0 24px; }
+.intro { padding: 65px 0 35px; }
+.eyebrow { color: #5578b5; font-size: .78rem; font-weight: bold; letter-spacing: 1.4px; }
+h1 { font-size: clamp(2.3rem, 5vw, 3.7rem); line-height: 1.15; }
+.intro p:last-child, .card p, .more p { color: #68748a; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding: 20px 0 55px; }
+.card { position: relative; min-height: 220px; padding: 28px; background: white; border: 1px solid #e2e8f0; border-radius: 14px; }
+.label { position: absolute; top: 15px; right: 15px; padding: 5px 10px; color: #244b8f; background: #e8eef9; border-radius: 20px; font-size: .75rem; font-weight: bold; }
+.number { display: grid; place-items: center; width: 48px; height: 48px; color: white; background: #5578b5; border-radius: 12px; font-weight: bold; }
+.more { min-height: 280px; padding: 28px; background: #e8eef9; border-radius: 14px; }
+@media (max-width: 680px) { .navbar { align-items: flex-start; flex-direction: column; gap: 12px; } .cards { grid-template-columns: 1fr; } }

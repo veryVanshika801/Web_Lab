@@ -1,0 +1,71 @@
+P1: PROJECT FOLDER AND TERMINAL NAVIGATION
+==========================================
+ 
+Name    : Vanshika
+
+ 
+1. INTRO
+---------------
+When we work on a project, we create many files such as code, images and
+notes. To keep them organized, we store them in one place called a project
+folder. To move around and manage these folders quickly, we can use a tool
+called the terminal.
+ 
+ 
+2. WHAT IS A PROJECT FOLDER?
+----------------------------
+A project folder is a normal folder that keeps all the files of one project
+together. Each project should have its own folder.
+ 
+Example of a project folder structure:
+ 
+    my-project/
+        index.html
+        style.css
+        notes.txt
+        images/
+            logo.png
+ 
+Here, "my-project" is the main folder and "images" is a sub-folder inside it.
+ 
+ 
+3. WHAT IS THE TERMINAL?
+------------------------
+The terminal is a window where we type commands to tell the computer what to
+do, instead of using the mouse. It can be used to open folders, create
+folders and move between them.
+ 
+How to open the terminal:
+    - Mac     : Press Cmd + Space and type "Terminal"
+ 
+ 
+4. BASIC TERMINAL COMMANDS
+--------------------------
+ 
+    Command             What it does
+    ------------------  ------------------------------------------
+    pwd                 Shows the folder you are currently in
+    ls                  Lists the files and folders inside it
+                        (on Windows you can also use: dir)
+    mkdir my-project    Creates a new folder named my-project
+    cd my-project       Moves INTO the folder named my-project
+    cd ..               Moves BACK one folder (to the parent folder)
+ 
+ 
+5. PRACTICAL EXAMPLE
+--------------------
+Steps to create a project folder and move around using the terminal:
+ 
+    Step 1:  mkdir my-project     (creates the project folder)
+    Step 2:  cd my-project        (goes inside the folder)
+    Step 3:  pwd                  (confirms where we are)
+    Step 4:  cd ..                (goes back one folder)
+    Step 5:  ls                   (shows my-project in the list)
+
+ 
+6. CONCLUSION
+-------------
+A project folder helps us keep our work neat and organized. The terminal
+lets us create and move between folders quickly using simple commands like
+pwd, ls, mkdir and cd. Learning these basics is the first step to working
+with code and development tools.
